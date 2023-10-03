@@ -1,0 +1,19 @@
+{
+  "lr": 0.005,
+  "weight_decay": 0,
+  "patience": 2000,
+  "batch_size": 128,
+  "dropout": 0.05,
+
+  "gnn_hidden_feats": 256,
+  "num_gnn_layers": 3,
+  "residual": true, 
+  "batchnorm": false,
+
+  "gnn_hidden_feats2": 256,
+  "num_gnn_layers2": 3,
+  "residual2": true,
+  "batchnorm2": false,
+
+  "predictor_hidden_feats": 128
+}
